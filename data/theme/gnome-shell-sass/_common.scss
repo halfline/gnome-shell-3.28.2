@@ -1827,6 +1827,11 @@ StScrollBar {
       width: 23em;
   }
 
+  .login-dialog-prompt-layout .login-dialog-timed-login-indicator {
+    height: 2px;
+    background-color: darken($fg_color,40%);
+  }
+
   .login-dialog-prompt-label {
       color: darken($osd_fg_color, 20%);
       font-size: 110%;
